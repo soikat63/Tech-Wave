@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    background-color: #1A0B2E;
+    border-bottom: 1px solid #412567;
+    padding: 30px 0;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+/* ------------------------------- */
+ .navbar{
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .brand-logo{
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    -webkit-text-stroke:1px black;
+ }
+
+ .gredient-logo{
+    background: linear-gradient(370deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%)  ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+
+ .menu-list{
+    gap: 32px;
+    align-items: center;
+ }
+
+ .menu-items{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    color: white;
+    transition: 0.3s ;
+ }
+
+ .menu-items:hover{
+    color: #00FF88;
+ }
+
+ .gradient-btn{
+    padding: 13px 16px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    background: linear-gradient(370deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%)  ;
+    /* background-position: left center; */
+    /* background-size: 300% 300%; */
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+    transition: background-position 5s ease-in-out;
+    
+
+ }
+ .gradient-btn:hover{
+    background-position: right center;
+     
+
+ }
