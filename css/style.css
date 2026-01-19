@@ -265,6 +265,13 @@ nav {
    gap: 16px;
 }
 /* --------About end---------- */
+/* --------choose start---------- */
+
+.choose{
+   padding: 120px 0;
+   background:#412567;
+}
+/* -------choose end---------- */
 
 /* Responsive Start */
 
