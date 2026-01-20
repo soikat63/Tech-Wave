@@ -313,6 +313,46 @@ h4{
 }
 /* -------choose end---------- */
 
+/* ----------featured start-------- */
+
+.featured{
+   padding: 120px 0;
+
+}
+
+ .featured-card {
+    margin-top: 40px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    
+    
+ }
+
+.card-item{
+   background: #250D44;
+   border-radius: 24px;
+   overflow: hidden;
+   max-width: 380px;
+}
+
+.card-details{
+   padding: 24px;
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+}
+
+.time-frame{
+   justify-content: start;
+   align-items: center;
+   gap: 6px;
+}
+.time-text{
+   color: #00ff88;
+}
+/* ----------featured end-------- */
+
 /* Responsive Start */
 
 @media (max-width: 576px) {
@@ -404,5 +444,24 @@ h4{
   .two-column, .two-column{
    grid-row: span 1;
    grid-column: span  1;
+  }
+
+  .featured{
+   padding: 40px 0;
+  }
+
+  .featured-card{
+   margin-top: 24px;
+   flex-direction: column;
+   gap: 16px;
+  }
+
+  .card-item{
+   max-width: 100%;
+  }
+
+  .card-details{
+   padding: 16px;
+   gap: 8px;
   }
 }
