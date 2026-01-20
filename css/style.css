@@ -402,7 +402,7 @@ h5{
 /* ---------Footer start--------- */
 
 footer{
-  background-image: url(/Images/Footer.png);
+  background-image: url(../Images/Footer.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
