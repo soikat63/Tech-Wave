@@ -399,6 +399,37 @@ h5{
 }
 /* ----------featured end-------- */
 
+/* ---------Footer start--------- */
+
+footer{
+  background-image: url(/Images/Footer.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px 0;
+}
+.footer-content{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+
+}
+.social-grp{
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+
+}
+.social-icon{
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+}
+/* ---------Footer end--------- */
+
 /* Responsive Start */
 
 @media (max-width: 576px) {
@@ -531,5 +562,21 @@ h5{
   }
   .icon-group{
     justify-content: center;
+  }
+
+  footer{
+    padding: 40px 0;
+  }
+
+  .footer-img{
+    max-width: 220px;
+  }
+
+  .social-grp{
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 300px;
+    gap: 16px;
+
   }
 }
